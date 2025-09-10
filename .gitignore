@@ -1,4 +1,60 @@
+# ===========================
+# macOS system files
+# ===========================
 .DS_Store
-src/.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ===========================
+# Build & CMake
+# ===========================
 build/
+build-*/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+*.cmake
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.app
+*.out
+
+# ===========================
+# vcpkg
+# ===========================
+vcpkg_installed/
+.vcpkg-root
+
+# ===========================
+# VS Code
+# ===========================
 .vscode/
+*.code-workspace
+
+# ===========================
+# Logs & temp
+# ===========================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ===========================
+# Generated packages
+# ===========================
+*.tar.gz
+*.zip
+*.dmg
+*.tgz
+*.gz
